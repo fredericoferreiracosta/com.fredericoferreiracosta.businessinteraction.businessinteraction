@@ -1,4 +1,10 @@
+package com.fredericoferreiracosta.businessinteraction.businessinteraction;
+
+/**
+ * Response to be returned to external system.
+ */
 public class Response {
+
     private String response;
 
     public String getResponse() {

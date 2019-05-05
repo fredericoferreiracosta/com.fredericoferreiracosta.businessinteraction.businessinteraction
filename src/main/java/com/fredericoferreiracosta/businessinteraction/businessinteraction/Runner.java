@@ -1,4 +1,10 @@
-public class SkyNet {
+package com.fredericoferreiracosta.businessinteraction.businessinteraction;
+
+/**
+ * Use example.
+ */
+public class Runner {
+
     public static void main(String[] args) {
         BusinessInteractionFactory myBiFactory = new BusinessInteractionFactory();
         BusinessInteraction bi = myBiFactory.getBusinessInteractionStrategy("CustomerInsert");
